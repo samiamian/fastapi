@@ -24,7 +24,7 @@ services:
     image: postgres
     restart: always
     environment:
-      - POSTGRES_PASSWORD=5Point_0
+      - POSTGRES_PASSWORD=
       - POSTGRES_DB=fastapi
     volumes:
       - postgre-db:/var/lib/postgresql/data
